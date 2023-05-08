@@ -1,0 +1,27 @@
+## Database Connection Settings
+
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=av1_lab_bd;encrypt=true;trustServerCertificate=true
+    username: rogerio
+    password: 1234567
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+        proc:
+          param_null_passing: true
+  session:
+    jdbc:
+      initialize-schema: always
+
+logging:
+  level:
+    org:
+      hibernate: ERROR
+      springframework:
+        web: DEBUG
+

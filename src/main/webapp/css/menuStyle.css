@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+/* Define a cor de fundo para a página */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Define as propriedades de fonte */
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Define as propriedades de estilo para a tabela de links */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+td a {
+  display: block;
+  color: #333;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+td a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Define as propriedades de estilo para o cabeçalho da página */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Define as propriedades de estilo para o container */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 5px;
+}

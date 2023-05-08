@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+/* Define a cor de fundo para a página */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Define as propriedades de fonte */
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Define as propriedades de estilo para o cabeçalho da página */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Define as propriedades de estilo para o container */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Define as propriedades de estilo para a mensagem de feedback */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Define as propriedades de estilo do fieldset */
+fieldset {
+  width: 10%;
+  margin: 0 auto;
+}
+
+/* Define as propriedades de estilo para o formulário */
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="date"] {
+  text-align: center;
+  line-height: 30px;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table.tamanho {
+  width: 840px;
+  margin: 0 auto;
+}
+
+table.linhas td{
+	border: 1px solid black;
+}
+
+/* Define as propriedades de estilo para as tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
